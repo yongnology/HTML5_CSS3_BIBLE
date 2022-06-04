@@ -216,3 +216,31 @@ ex)
   확인하므로 트래픽이 낭비된다.
 
 ------------------------------------------
+
+2.8 비디오 태그
+
+■ video 태그의 속성
+src : 비디오 파일의 경로 지정
+poster : 비디오 준비 중일 때의 이미지 파일 경로 지정
+preload : 비디오 재생하기 전에 모두 불러올지 지정
+autoplay : 비디오 자동 재생할지 지정
+loop : 비디오를 반복할지 지정
+controls : 비디오 재생 도구를 출력할지 지정
+width : 비디오의 너비 지정
+height : 비디오의 높이 지정
+
+■ video.js 플러그인
+- 최대한 동일한 디자인 설정하기
+ex)
+<head>
+    <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.19.2/video.js"></script>
+</head>
+		+
+<body>
+    <video class="video-js">
+        <soucre scr="video.mp4" type="video/mp4" />
+    </video>
+<body>
+
+------------------------------------------
