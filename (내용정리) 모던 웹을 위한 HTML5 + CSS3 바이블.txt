@@ -43,3 +43,11 @@ HTML5 기반의 데스크톱 애플리케이션 개발 엔진을 개발한다.
 https://www.google.com/chrome/에 들어가 구글 크롬을 다운받는다.
 
 ------------------------------------------
+
+1.4 Visual Studio Code 설치
+
+■ 준비물
+https://code.visualstudio.com/에 들어가 VSC를 다운받는다.
+ - 언어팩(Korean Language Pack for Visual Studio Code)을 설치한다.
+
+------------------------------------------
