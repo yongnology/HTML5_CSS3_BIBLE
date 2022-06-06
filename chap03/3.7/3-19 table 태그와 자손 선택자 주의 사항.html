@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <Style>
+        /*
+        table 태그 아래의 tr 태그 아래 th 태그의
+        color 속성에 red 키워드를 적용한다.*/
+        table > tr > th {
+        /*tabe> tbody> tr> th로 사용하면 적용된다.*/
+            color: red;
+        }
+    </Style>
+</head>
+<body>
+    <table border="1">
+        <!--table 태그에 tbody 태그가 자동으로 추가된다.-->
+        <tr>
+            <th>Name</th>
+            <th>Regin</th>
+        </tr>
+        <tr>
+            <td>이용민</td>
+            <td>경기도 고양시</td>
+        </tr>
+    </table>
+</body>
+</html>

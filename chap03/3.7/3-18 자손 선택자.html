@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <Style>
+        /*
+        id 속성값으로 header를 가지는 태그의 자손 위치에 있는 h1 태그의
+        color 속성에 red 키워드를 적용한다.
+        */
+        #header > h1 {
+            color:red;
+        }
+        /*
+        id 속성값으로 section을 가지는 태그의 자손 위치에 있는 h1 태그의
+        color 속성에 orange 키워드를 적용한다.
+        */
+        #section > h1 {
+            color: orange;
+        }
+    </Style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="title">#header h1 title</h1>
+        <div id="nav">
+            <h1>#header div nav Navigation</h1>
+        </div>
+    </div>
+    <div id="section">
+        <h1 class="title">#section h1 title</h1>
+        <p>#section p <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil libero pariatur laudantium, laboriosam beatae iusto tempora praesentium dolorum fugit, reprehenderit minus perferendis architecto expedita hic assumenda eum accusamus asperiores vitae?</p>
+    </div>
+</body>
+</html>
