@@ -624,3 +624,23 @@ collapse : table 태그를 보이지 않게 한다.
   0.0 투명한 상태부터 1.0 불투명 상태를 사용할 수 있다.
 
 ------------------------------------------
+
+4.4 박스 속성
+
+height : 높이
+width : 너비
+
+■ margin 속성과 padding 속성
+padding : 글자와 박스(border) 사이 너비
+magin : border 이후 너비
+
+■ box-sizing 속성
+- Content box
+  박스 너비 = width 속성 + 2 X (margin속성 + border속성 + padding 속성)
+  박스 높이 = height 속성 + 2 X (margin속성 + border속성 + padding 속성)
+
+- border-box
+  박스 너비 = width 속성 + 2 X margin 속성
+  박스 높이 = height 속성 + 2 X margin 속성
+
+------------------------------------------
