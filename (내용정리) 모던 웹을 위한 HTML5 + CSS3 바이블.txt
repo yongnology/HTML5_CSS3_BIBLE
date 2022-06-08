@@ -674,3 +674,41 @@ magin : border 이후 너비
 - background-position: x축크기y축크기;
 
 ------------------------------------------
+
+4.7 폰트 속성
+
+■ font-size 속성
+  : 글자의 크기를 지정하는 스타일 속성
+  - h1 태그의 기본 크기는 32픽셀
+  - p 태그의 기본 크기는 16픽셀
+
+■ font-family 속성
+  : 폰트를 지정하는 스타일 속성
+  : 한 단어로 이루어진 폰트는 따옴표를 사용하지 않는다.
+    두 단어 이상으로 이루어진 단어는 따옴표를 반드시 사용해야 한다.
+
+■ font-style 속성과 font-weight 속성
+  : 폰트의 기울기 또는 두께를 조정하는 스타일 속성
+
+  font-style 속성
+  inherit, initial, italic, normal, oblique, unset
+
+  font-weight 속성
+  숫자 또는 그림 키워드를 사용한다.
+
+■ line-height 속성
+  : 글자의 높이를 지정한다.
+  : 글자를 수직 중앙 정렬할 때 더 사용된다.
+  - 글자를 감사는 박스의 높이와 같은 크기의 line-height 속성을 사용하면
+    수직으로 중앙 정렬이 된다.
+
+■ text-align 속성
+  center, end, inherit, initial, justfly, left, right, start, unset
+
+  - sapn 태그는 inline 형식을 가지므로 너비가 존재하지 않는다.
+    따라서 text-align 속성을 사용할 수 없다.
+
+■ text-decoration 속성
+  : 바로가기 링크에 밑줄, 색상을 제거할 수 있다.
+
+------------------------------------------
