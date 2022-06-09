@@ -792,3 +792,14 @@ box-shadow: 오른쪽 아래 흐림도 색상
   https://css3generator.com/
 
 ------------------------------------------
+
+4.12 그레이디언트
+
+그레디언트는 2가지 이상의 색상을 혼합해서 채색하는 기능이다.
+css3는 그레디언트 기능을 지원한다.
+https://www.colorzilla.com/gradient-editor/
+
+inear-gradient(각도deg, 색상 위치, 색상 위치)
+inear-gradient(45deg, #f85032 0%, #e73827 100%)
+
+------------------------------------------
