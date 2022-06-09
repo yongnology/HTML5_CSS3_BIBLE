@@ -879,6 +879,7 @@ http://html5doctor.com/html-5-reset-stylesheet/
 
 5.4 헤더 구조 작성
 
-
+자손의 position 속성에 absolute 키워드를 적용하면
+부모의 position 속성에 relative 키워드를 적용한다
 
 ------------------------------------------
