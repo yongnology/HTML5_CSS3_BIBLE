@@ -984,3 +984,13 @@ target-densitydpi : dpi 지정
 6.4 헤더 구조 구성
 
 ------------------------------------------
+
+6.5 스프라이트 이미지
+
+CSS Sprites Generator의 공식 홈페이지는
+https://www.toptal.com/developers/css/sprite-generator/ 이다.
+
+■ 스프라이트란
+ : 여러 이미지를 하나로 결합하여 이미지 수를 줄이는 방법이다.
+
+------------------------------------------
