@@ -890,3 +890,10 @@ http://html5doctor.com/html-5-reset-stylesheet/
 https://fonts.google.com/
 
 ------------------------------------------
+
+5.6 수평 메뉴
+
+- 자손에 float 속성을 사용하면
+  부모의 overflow 속성에 hidden 키워드를 적용해야 한다.
+  
+------------------------------------------
