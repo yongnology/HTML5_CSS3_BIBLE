@@ -883,3 +883,10 @@ http://html5doctor.com/html-5-reset-stylesheet/
 부모의 position 속성에 relative 키워드를 적용한다
 
 ------------------------------------------
+
+5.5 웹 폰트 
+ 
+구글 폰트에서  <link> 또는 @import로 폰트지정이 가능하다.
+https://fonts.google.com/
+
+------------------------------------------
