@@ -918,3 +918,12 @@ https://fonts.google.com/
 하지만 css로 어느정도 가능하다.
 
 ------------------------------------------
+
+5.10 목록 구성
+
+긴 글자 생략할 때 사용하는 삼총사
+white-space: nowrap;
+overflow: hidden'
+text-overflow: ellipsis;
+
+------------------------------------------
