@@ -897,3 +897,12 @@ https://fonts.google.com/
   부모의 overflow 속성에 hidden 키워드를 적용해야 한다.
   
 ------------------------------------------
+
+5.7 콘텐츠 구성
+
+1행    header    Navigation
+                Navigation
+2행    Section    Aside
+3행    Footer                
+
+------------------------------------------
