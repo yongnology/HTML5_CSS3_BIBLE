@@ -969,3 +969,14 @@ maximum-scale : 최대 축소 비율
 target-densitydpi : dpi 지정
 
 ------------------------------------------
+
+6.3 초기화
+
+<style>
+    * { margin: 0; padding:0;}
+    body {font-family: 'Helvetica', sans-serif;}
+    li {list-style:none}
+    a {text-decoration: none;}
+</style>
+
+------------------------------------------
