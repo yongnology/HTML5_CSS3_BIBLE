@@ -1054,3 +1054,15 @@ html, body {
 </style>
 
 ------------------------------------------
+
+6.13 글자 감추기
+
+<style>
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+</style>
+
+------------------------------------------
