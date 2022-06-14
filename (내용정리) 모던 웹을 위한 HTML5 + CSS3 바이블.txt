@@ -1066,3 +1066,14 @@ html, body {
 </style>
 
 ------------------------------------------
+chapter 07 태블릿 PC 레이아웃
+------------------------------------------
+
+7.1 초기화
+
+  * { margin: 0; padding: 0;}
+  body { font-family: 'Helvetica', sans-serif;}
+  li { list-style: none;}
+  a { text-decoration: none;}
+
+------------------------------------------
