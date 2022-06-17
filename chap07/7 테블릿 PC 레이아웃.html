@@ -60,7 +60,23 @@
             }
         </style>
         <!--콘텐츠-->
-        <style></style>
+        <style>
+            #wrap {
+                overflow: hidden;
+            }
+            #wrap > #main_lnb {
+                float: left;
+                width: 200px;
+            }
+            #wrap > #content_wrap {
+                float: left;
+                width: 100%;
+                *width: 99.9%;
+                margin-right: -200px;
+            }
+            #wrap > #content_wrap > #content { padding-right: 200px;}
+
+        </style>
         <!--수직목록-->
         <style></style>
         <!--푸터-->
@@ -84,5 +100,36 @@
             <li><a href="#">Button</a></li>
         </ul>
     </nav>
+    <div id="wrap">
+        <div id="main_lnb">
+            <ul>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+            </ul>
+        </div>
+        <div id="content_wrap">
+            <div id="content">
+                <article>
+                    <h1>Lorem ipsum dolor amet</h1>
+                    <p>Irure ex incididunt dolor ad veniam mollit id. Labore nostrud laboris proident magna commodo. Esse laboris in sint nostrud officia. Lorem et aute in tempor reprehenderit nostrud irure. Duis veniam ipsum id reprehenderit anim nostrud. Ea sint ex eu elit ad nulla.</p>
+                    <p>Consectetur amet quis et enim. Nisi deserunt nisi et anim excepteur occaecat nostrud esse et. Elit deserunt magna quis aute sint eu in qui nisi elit. Tempor mollit aliqua culpa esse incididunt mollit dolor magna voluptate nostrud officia ut qui. Pariatur est pariatur ea ut magna quis aliquip cupidatat eu. Ea cupidatat aliquip irure exercitation amet id.</p>
+                    <p>Voluptate minim commodo officia et reprehenderit culpa et irure magna nostrud consectetur qui voluptate irure. Magna non laboris proident fugiat sunt laborum nisi nostrud proident nulla excepteur. Magna fugiat et excepteur ad mollit ut aute ut voluptate voluptate officia laboris. Nulla nisi dolor ea reprehenderit do. Pariatur culpa dolor voluptate do irure officia irure velit est velit et aliquip. Nisi sunt laboris sit eiusmod nulla amet nulla et est aliqua ut occaecat reprehenderit. Officia occaecat sint dolor nisi irure voluptate nisi laboris sit cupidatat eu pariatur.</p>
+                </article>
+                <article>
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et illo molestiae vero vel odit omnis, recusandae laudantium perspiciatis minima saepe accusantium officia voluptatum est tempora hic atque. Nam, unde magnam!</h1>
+                    <p>Nulla commodo eiusmod exercitation aliquip qui ut reprehenderit minim amet aliquip Lorem. Eu cillum eiusmod exercitation excepteur proident nisi consequat non magna aliquip. Tempor laboris officia culpa nostrud aute nulla do ullamco adipisicing sunt. Minim magna aliquip excepteur eu reprehenderit labore.</p>
+                    <p>Elit cillum eu quis ad consequat quis proident sint in ut sit duis. Velit dolor enim dolor cillum Lorem aute. Cillum enim nostrud ex duis. Enim quis ullamco laboris nostrud Lorem Lorem nostrud mollit magna. Nisi fugiat aute aliqua ad tempor fugiat amet laborum deserunt sint minim dolore. Id consequat eiusmod aliqua mollit sint. Fugiat reprehenderit aliqua veniam anim Lorem.</p>
+                </article>
+                <article>
+                    <h1>Velit Lorem irure est culpa occaecat aute adipisicing irure aliquip duis mollit deserunt officia. Ad excepteur aute irure cupidatat cillum deserunt aliqua. Minim ullamco qui nulla sint. Irure deserunt anim dolore aliqua id occaecat sit amet quis Lorem.</h1>
+                    <p>Irure reprehenderit pariatur do in anim consequat veniam velit eu ad eiusmod adipisicing nisi. Occaecat amet excepteur quis elit do consequat id. Aute incididunt cillum irure consectetur deserunt. Nostrud occaecat sint nulla do mollit proident commodo do amet exercitation esse labore. Qui nisi est adipisicing quis. Ea ex adipisicing irure officia quis reprehenderit sint exercitation nostrud tempor. Consequat eiusmod consequat veniam eu aute et et exercitation cillum dolore.</p>
+                    <p>Esse nostrud in magna consequat nulla laborum amet mollit. Lorem officia incididunt eu ad ut eiusmod ipsum consequat dolor ipsum laboris do. Veniam excepteur labore incididunt ex. Nisi incididunt sit aliquip commodo labore irure minim sint. Ex est cillum ullamco eu aliquip labore cupidatat dolor labore ad ex. Aute adipisicing nostrud nulla sint est nostrud non proident exercitation. Laborum eiusmod tempor cillum veniam laboris occaecat voluptate exercitation non do sint.</p>
+                </article>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
