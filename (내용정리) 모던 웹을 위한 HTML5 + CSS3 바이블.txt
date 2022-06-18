@@ -1207,3 +1207,29 @@ ex) transition: background-color 1s ease, width 5s linear 1s;
 property duration function delaly 순서로 입력한다.
 
 ------------------------------------------
+
+9.3 키 프레임과 애니메이션 속성
+
+■ animation 속성
+animation : 모든 animation 속성을 한 번에 적용한다.
+animation-delay : 이벤트 발생 후 몇 초 후에 재생할지 지정한다.
+animation-direction : 애니메이션 진행 방향을 설정한다.
+animation-duration : 애니메이션을 몇 초 동안 재생할지 지정한다.
+animation-iteration-count : 애니메이션 반복 횟수를 지정한다.
+animation-name : 애니메이션 이름을 지정한다.
+animation-play-state : 애니메이션 재생 상태를 지정한다.
+animation-timing-function : 수치 변형 함수를 지정한다.
+
+■ #key-frames
+키 프레임 규칙이라 부르며, CSS3에서 애니메이션을 지정하는 형식이다.
+키 프레임 안에서는 퍼센트 단위로 애니메이션을 적용한다.
+
+■ animation-direction 속성에 사용 가능한 키워드
+alternate : from에서 to로 이동 후 to 에서 from으로 이동을 반복한다.
+normal : 계속 from 에서 to 로 이동한다.
+
+■ animation 속성은 한번에 입력할 수 있다.
+animation: <animation-name> <animation-duration> <animation-timing-function> 
+           <animation-delay> <animation-iteration-count> <animation-direction>
+           
+------------------------------------------
