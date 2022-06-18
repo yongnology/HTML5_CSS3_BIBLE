@@ -1244,3 +1244,28 @@ HTML5에서 3차원을 구현하는 방법은 크게 2가지로 나뉜다.
   - ex) impress.js.org
 
 ------------------------------------------
+
+10.2 2차원 변환
+
+■ 데카르트 좌표
+3D Max 또는 Maya 같은 3차원 개발 툴에서 사용하는 좌표
+
+■ transform 속성
+normal, translate, rotate, scale, skew
+
+■ 2차원 변환 함수
+translate(translateX, translateY) : 특정 크기만큼 이동
+translateX(translateX) : X축으로 특정 크기만큼 이동
+translateY(translateY) : Y축으로 특정 크기만큼 이동
+scale(scaleX, scaleY) : 특정 크기만큼 확대 및 축소
+scale(scaleX) : X축으로 특정 크기만큼 확대 및 축소
+scale(scaleY) : Y축으로 특정 크기만큼 확대 및 축소
+skew(angleX, angleY) : 특정 각도만큼 기울인다.
+skew(angleX) : X축으로 특정 각도만큼 기울인다.
+skew(angleY) : Y축으로 특정 각도만큼 기울인다.
+rotate(anlgeZ) : 특정 각도만큼 회전
+
+※ transform 속성을 사용할 때
+  입력하는 순서가 다르면 실행 결과가 달라질 수 있다.
+
+------------------------------------------

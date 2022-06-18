@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Transition Basic</title>
+    <Style>
+        * { margin: 30px}
+        section {
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+        }
+        .same1 {
+            width: 100px; height: 100px;
+            background: red;
+
+            transform: rotate(60deg);
+            transform-origin: 100% 100%;
+            /* 100% 100%를 입력했으므로 객체의 오른쪽 아래가 변환 중심 */
+        }
+        .same2 {
+            width: 100px; height: 100px;
+            background: red;
+
+            transform: rotate(60deg);
+            transform-origin: right bottom;
+        }
+    </Style>
+</head>
+<body>
+    <section>
+        <div class="same1"></div>
+    </section>
+    <section>
+        <div class="same2"></div>
+    </section>
+</body>
+</html>
