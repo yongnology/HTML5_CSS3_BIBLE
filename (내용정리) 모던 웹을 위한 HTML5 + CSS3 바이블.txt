@@ -1176,3 +1176,34 @@ chapter 09 CSS3 변형과 애니메이션
 
 ------------------------------------------
 
+9.2 변형 속성
+
+■ transition 속성
+transition : 모든 transition 속성을 한 번에 사용한다.
+transition-delay : 이벤트 발생 후 몇 초 후에 발생할지 지정한다.
+transition-duration : 몇 초 동안 재생할지 지정한다.
+transition-property : 어떤 속성을 변형할지 지정한다.
+transition-timing-function : 수치 변형 함수를 지정한다.
+
+■ transition-timing-function 종류
+ease
+linear
+ease-in
+ease-opt
+ease-in-out
+
+■ cubic-bezier(x0, y0, x1, y1)
+1 X 1 크기의 사각형에서 두 점의 위치를 지정해
+베지어 곡선을 만드는 함수이다.
+
+■ transition-property 속성
+특정 스타일 속성만 애니메이션을 적용하고 싶을 때,
+각가의 속성에 다른 형태의 애니메이션을 적용하고 싶을 때
+사용된다.
+
+■ transition 하나의 속성으로 할 수 있다.
+ex) transition: background-color 1s ease, width 5s linear 1s;
+
+property duration function delaly 순서로 입력한다.
+
+------------------------------------------
