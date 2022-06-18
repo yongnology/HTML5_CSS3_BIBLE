@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Trasition Basic</title>
+    <Style>
+        .box {
+            width: 100px; height: 100px;
+            background-color: orange;
+
+            -ms-transition-duration: 2s;
+            -moz-transition-duration: 2s;
+            -webket-transition-duration: 2s;
+            transition-duration: 2s;
+        }
+        .box:hover {
+            width: 200px;
+            height: 300px;
+        }
+        .box:active {
+            background-color: red;
+        }
+    </Style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
