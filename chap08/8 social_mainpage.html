@@ -116,7 +116,38 @@
 
     </style>
     <!--목록-->
-    <style></style>
+    <style>
+        #detail_list {
+            overflow: hidden;
+            /* 자손에 float 속성을 사용하면 부모의 overflow 속성에
+               hidden 키워드를 적용한다.*/
+            padding: 10px;
+            background: #3B414D;
+            padding-bottom: 15px;
+        }
+        #detail_list > ul {
+            float: left;
+            width: 192px;
+        }
+        #detail_list > ul > li {
+            height: 13px;
+            margin-top: 5px;
+            padding: 3px 5px;
+            color: #F3F3F3;
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #detail_list > ul > li.header {
+            padding: 15px;
+        }
+        #detail_list > ul > li.header {
+            font-weight: bold;
+            color: #48C5FF;
+        }
+
+    </style>
     <!--본문-->
     <style></style>
     <!--푸터-->
@@ -167,5 +198,61 @@
         <div class="menu item_9 active"></div>
         <div class="menu item_10"></div>
     </nav>
+    <div id="detail_list">
+        <ul class="column_1">
+            <li class="header"><p>게임용 노트북</p></li>
+            <li>물건 이름1</li>
+            <li>물건 이름2</li>
+            <li>물건 이름3</li>
+            <li class="header"><p>울트라 북</p></li>
+            <li>물건 이름4</li>
+            <li>물건 이름5</li>
+            <li>물건 이름6</li>
+        </ul>
+        <ul class="column_2">
+            <li>물건 이름</li>
+            <li class="header"><p>노트북 가방</p></li>
+            <li>물건 이름7</li>
+            <li>물건 이름8</li>
+            <li>물건 이름9</li>
+            <li class="header"><p>받침대/쿨러</p></li>
+            <li>물건 이름10</li>
+            <li>물건 이름11</li>
+            <li>물건 이름12</li>
+        </ul>
+        <ul class="column_3">
+            <li class="header"><p>노트북 보호 필품</p></li>
+            <li>물건 이름13</li>
+            <li>물건 이름14</li>
+            <li>물건 이름15</li>
+            <li class="header"><p>맥북</p></li>
+            <li>물건 이름16</li>
+            <li>물건 이름17</li>
+            <li class="header"><p>노트북 보호 용품</p></li>
+            <li>물건 이름18</li>
+        </ul>
+        <ul class="column_4">
+            <li>물건 이름19</li>
+            <li>물건 이름20</li>
+            <li>물건 이름21</li>
+            <li>물건 이름22</li>
+            <li class="header"><p>노트북 보조 용품</p></li>
+            <li>물건 이름23</li>
+            <li>물건 이름24</li>
+            <li>물건 이름25</li>
+        </ul>
+        <ul class="column_5">
+            <li>물건 이름26</li>
+            <li>물건 이름27</li>
+            <li>물건 이름28</li>
+            <li class="header"><p>외장하드</p></li>
+            <li>물건 이름29</li>
+            <li>물건 이름30</li>
+            <li>물건 이름31</li>
+            <li>물건 이름32</li>
+            <li>물건 이름33</li>
+            <li>물건 이름34</li>
+        </ul>
+    </div>
 </body>
 </html>
