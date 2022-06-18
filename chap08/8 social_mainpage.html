@@ -19,7 +19,20 @@
         }
     </style>
     <!--헤더-->
-    <style></style>
+    <style>
+        #main_header {
+            position: relative;
+            height: 75;
+        }
+        #margin_header > h1.logo {
+            position: absolute;
+            left: 15px; top: 10px;
+        }
+        #main_header > div.login_menu {
+            position: absolute;
+            top: 10px; right: 0px;
+        }
+    </style>
     <!--사이드-->
     <style></style>
     <!--네비게이션_아래-->
@@ -33,6 +46,15 @@
     
 </head>
 <body>
-    
+    <header id="main_header">
+        <h1 class="logo">
+            <a href="#"><img src="Images/title.png"></a>
+        </h1>
+        <div class="login_menu">
+            <span><a href="#">로그인</a></span>
+            <span><a href="#">회원가입</a></span>
+            <span><a href="#">고객센터</a></span>
+        </div>
+    </header>
 </body>
 </html>
