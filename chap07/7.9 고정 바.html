@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tablet Layout</title>
+    <Style>
+        /* 전체화면에 적용 */
+        * { margin: 0; padding: 0; }
+        html, body { height: 100%; }
+
+        #top_bar {
+            position: fixed;
+            top: 0%; left: 0; right: 0;
+            height: 50px;
+            background: red;
+        }
+        #bottom_bar {
+            position: fixed;
+            bottom: 0; left: 0%; right: 0;
+            height: 50px;
+            background: red;
+        }
+        #left_bar {
+            position: fixed;
+            top: 50px; bottom: 50px;
+            left: 0%; width: 50px;
+            background: blue;
+        }
+        #right_bar {
+            position: fixed;
+            top: 50px; bottom: 50px;
+            right: 0%; width: 50px;
+
+            background: blue;
+        }
+        /* article 태그의 출력 영역 조정 */
+        article {
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+        }
+        /* 전체화면 적용 */
+        
+    </Style>
+</head>
+<body>
+    <div id="top_bar">
+        <h1>Top_Bar</h1>
+    </div>
+    <div id="bottom_bar">
+        <h1>Bottom_Bar</h1>
+    </div>
+    <div id="left_bar">
+        <h1>A</h1>
+    </div>
+    <div id="right_bar">
+        <h1>B</h1>
+    </div>
+    <article>
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Anim voluptate consequat nulla aute laborum reprehenderit consectetur ex. Pariatur exercitation in proident eu aliquip enim duis cillum consectetur mollit anim. Veniam nostrud sunt culpa fugiat aute. Adipisicing eu ex amet pariatur veniam ad magna dolor esse id tempor in sunt.</p>
+        <p>Amet sit ex labore eu commodo velit commodo ea minim deserunt. Laborum deserunt elit non aute fugiat eu. Mollit do veniam eu enim ut ea aliqua et duis ullamco qui aliquip excepteur in. Adipisicing ipsum dolore adipisicing eiusmod tempor consequat amet reprehenderit fugiat do nulla. Cillum ex adipisicing non tempor dolore nisi magna sunt magna ea occaecat. Cillum irure sunt eiusmod ullamco est mollit ex in consequat irure ipsum incididunt sint anim.</p>
+        <p>Anim aliquip cillum occaecat commodo proident duis quis sunt ipsum ad. Cillum pariatur in dolor commodo dolor tempor commodo ex. Fugiat qui do eu qui fugiat aute. Amet nulla fugiat quis deserunt non elit aliquip deserunt dolor magna anim.</p>
+    </article>
+</body>
+</html>
