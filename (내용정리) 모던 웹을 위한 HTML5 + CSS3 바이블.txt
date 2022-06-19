@@ -1317,3 +1317,24 @@ chapter 11 CSS 추가 규칙과 반응형 웹
 스타일시트 용어로 @-rule 이라고 부른다.
 
 ------------------------------------------
+
+11.2 @import 규칙
+
+@import 규칙은 CSS파일에서 다른 CSS파일을 추가하는 방법이다.
+
+<head>
+  <link rel="stylesheet" href="StylesheetA.css" >
+</head>
+
+와
+
+<head>
+  <style>
+    @import url(StyleSheetA.css);
+  </style>
+</head>
+
+는 같은 결과를 보여준다.
+(무엇을 선택하는지는 개인 취향)
+
+------------------------------------------
