@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Query Basic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <Style>
+    /*화면 너비에 다른 스타일시트 구분*/
+        /* 화면 너비 0픽셀 ~ 767픽셀*/
+        @media screen and (max-width: 767px) {
+            html {
+                background: red;
+                color: white; font-weight: bold;
+            }
+        }
+        /* 화면 너비 768픽셀 ~ 959픽셀*/
+        @media screen and (min-width: 768px) and (max-width: 959px){
+            html {
+                background: green;
+                color: white; font-weight: bold;
+            }
+        }
+        /* 화면 너비 960픽셀 ~ 무한픽셀*/
+        @media screen and (min-width: 960px) {
+            html {
+                background: blue;
+                color: white; font-weight: bold;
+            }
+        }
+    </Style>
+</head>
+<body>
+    <h1>Lorem ipsum</h1>
+    <p>Culpa veniam mollit anim aliquip officia anim irure proident laboris velit. Est esse excepteur pariatur veniam minim duis consectetur anim aute. Tempor exercitation cillum excepteur adipisicing ullamco. Fugiat elit veniam ex laboris elit sint aute culpa deserunt. Consectetur non magna voluptate tempor voluptate exercitation in commodo. Aliquip eu proident ullamco ex sunt ad in qui ea qui excepteur mollit proident ea. Incididunt exercitation laborum labore nisi ex tempor ut sint ad sunt ullamco pariatur.</p>
+    <p>Excepteur culpa proident elit est magna pariatur amet nulla laboris eiusmod fugiat. Proident do reprehenderit cupidatat laboris labore laboris laboris esse nostrud minim. Sint non culpa exercitation tempor consequat esse labore. Sunt ad anim non reprehenderit enim proident.</p>
+</body>
+</html>
