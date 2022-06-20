@@ -1411,6 +1411,19 @@ ContainerWidth = (ColumnWidth + GutterWidth) X 12
 ex)
 960 픽셀 = ( 60픽셀 + 20픽셀 ) X 12
 
+12.2 동적 그리드
+
+■ 동적 그리드 시스템을 만들 때 공식
+공식1 (Column Width + GutterWidth) X ColumnCount - CutterWidth = 100
+공식2 Column Width = (100 - (ColumnCount - 1) X GutterWidth) / ColumnCount
+
+일반적으로 공식2를 사용한다.
+ex) 변수 @GutterWidth를 2%로 적용하면
+
+ColumnWidt = (100 - 11 x 2)
+             ---------------  = 6.5
+                   12
+
 ------------------------------------------
 APPENDIX A 부트스트랩
 ------------------------------------------
