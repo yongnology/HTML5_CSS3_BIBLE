@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Grid System</title>
+    <style>
+        .container {
+            /* 그리드 레이아웃을 적용하겠다! */
+            display: grid;
+            /* 2대 1 비율*/
+            grid-template-columns: 2fr 1fr;
+        }
+        [class*=cell] {
+            box-sizing: border-box;
+            border: 5px solid black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell-a">cell a</div>
+        <div class="cell-b">cell b</div>
+        <div class="cell-c">cell c</div>
+        <div class="cell-d">cell d</div>
+    </div>
+</body>
+</html>

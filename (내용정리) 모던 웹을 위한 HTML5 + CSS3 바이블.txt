@@ -1437,6 +1437,24 @@ ColumnWidt = (100 - 11 x 2)
 @media screen and (min-width: 960px) {}
 
 ------------------------------------------
+12.4 CSS3 그리드 레이아웃
+
+■ 적용 속성
+ : Flex 속성과 Grind 속성
+
+ ■ CSS3 그리드 레이아웃을 사용하려면
+ : 다른 요소를 감싸는 태그에 display:grid를 적용해야한다.
+ 
+ ■ grid 레이아웃은 짧게 설정이 가능하다.
+ : 순서는 <grid-template-rows>/<grid-template-column>
+ ex)
+  .container {
+    display: grid;
+    grid-template-colums: 300px 300px;
+    grid-template-rows: 1fr 2fr;
+  }
+  
+------------------------------------------
 APPENDIX A 부트스트랩
 ------------------------------------------
 

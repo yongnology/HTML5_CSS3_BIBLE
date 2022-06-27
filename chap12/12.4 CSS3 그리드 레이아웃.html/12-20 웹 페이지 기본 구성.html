@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grid System</title>
+    <Style>
+        * {
+            /* 기본 초기화 */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            /* 너비 고정 and 중앙 정렬 */
+            width: 960px;
+            margin: 0 auto;
+            padding: 10px 0 0 0;
+
+            /* 그리드 구성하기 */
+            display: grid;
+            grid-template: 70px 1fr 70px / 200px 1fr;
+            grid-gap: 5px;
+        }
+        [class*=cell] {
+            box-sizing: border-box;
+            border: 5px solid black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .cell-header {grid-column: 1 / 3; }
+        .cell-footer {grid-column: 1 / 3; }
+
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell-header">
+            <h1>Header</h1>
+        </div>
+        <div class="cell-aside">
+            <h2>Aside</h2>
+            <p>Excepteur officia sunt sunt pariatur aute officia elit nostrud occaecat aute aliquip. </p>
+            <p>Lorem pariatur qui labore excepteur ipsum laboris nulla voluptate culpa occaecat do.</p>
+        </div>
+        <div class="cell-content">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Laboris velit exercitation anim magna ipsum sunt aliqua.</p>
+            <p>Aliquip dolor irure proident do velit elit consectetur mollit elit minim Lorem nulla excepteur.</p>
+        </div>
+        <div class="cell-footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>
